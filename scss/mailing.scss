@@ -1,0 +1,90 @@
+.mailing {
+  height: 297px;
+  background-image: url("../img/mailingFone.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0 18px 18px 0;
+  &__top {
+    width: 872px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+  }
+  &__left {
+    padding: 74px 32px 77px;
+    &-heading {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 58px;
+      color: #333333;
+    }
+    &-text {
+      margin-top: 9px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #333333;
+    }
+  }
+  &__right {
+    width: 370px;
+    padding: 36px 62px 28px 0;
+    &-heading {
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 12px;
+      text-transform: uppercase;
+      color: #333333;
+    }
+    &-input {
+      width: 100%;
+      margin: 10px 0 21px;
+      padding-bottom: 10px;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #333333;
+      &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #D7D7D7;
+      }
+    }
+    &-block {
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &-check {
+      margin-right: 4px;
+    }
+    &-text {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      color: #333333;
+      span {
+        color: #E2001A;
+      }
+    }
+    &-btn {
+      margin-top: 18px;
+      padding: 14.5px 132.5px;
+      background-color: #E2001A;
+      border-radius: 120px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.promo {
+  display: flex;
+  justify-content: space-between;
+  &__left {
+    margin-top: 29px;
+    width: 50%;
+    &-heading {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 43px;
+      color: #333333;
+      span {
+        color: #E2001A;
+      }
+    }
+    &-text {
+      margin: 11px 0 19px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #333333;
+    }
+    &-btn {
+      margin-left: 1px;
+      padding: 14.5px;
+      background-color: #E2001A;
+      border-radius: 120px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+    }
+  }
+  &__right {
+    width: 50%;
+    background-image: url("../img/promo-fone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &-margin {
+      margin-top: 77px;
+      margin-left: 98px;
+    }
+    &-headline {
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 104px;
+      color: #212121;
+      span {
+        color: #E2001A;
+      }
+    }
+    &-text {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      color: #212121;
+    }
+    &-icon {
+      position: absolute;
+      left: -22px;
+      bottom: -4px;
+    }
+    &-icon-1 {
+      position: absolute;
+      right: 11px;
+      bottom: 121px;
+    }
+  }
+}

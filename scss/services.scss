@@ -1,0 +1,61 @@
+.services {
+  margin-top: 60px;
+  &__heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+    span {
+      color: #E2001A;
+    }
+  }
+  &__showcase {
+    display: flex;
+    margin-top: 24px;
+    max-width: 872px;
+  }
+  &__card {
+    width: 870px;
+    height: 289px;
+    background-image: url("../img/servicesFone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-block {
+      padding: 52px 30px 30px 32px;
+    }
+    &-headline {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      text-transform: uppercase;
+      color: #EBEBEB;
+    }
+    &-heading {
+      margin-top: 8px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 43px;
+      color: #FFFFFF;
+    }
+    &-text {
+      margin-top: 7px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #EBEBEB;
+    }
+    &-btn {
+      margin-top: 22px;
+      padding: 9.5px 29px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background-color: #333333;
+      border-radius: 120px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+    }
+  }
+}

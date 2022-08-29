@@ -1,0 +1,64 @@
+@import "_mixins.scss";
+@import "reset";
+@import "fonts";
+
+body {
+  font-family: 'DIN Pro', sans-serif;
+  background-color: #F6F6F6;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+}
+@import "header.scss";
+@import "nav.scss";
+@import "promo.scss";
+@import "necessary.scss";
+@import "info.scss";
+@import "articles.scss";
+@import "webinar.scss";
+@import "events.scss";
+@import "services.scss";
+@import "registration.scss";
+@import "footer.scss";
+@import "mailing.scss";
+@import "ecosystem.scss";
+@import "support.scss";
+
+.custom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+#prev-arrow {
+  &.slick-disabled {
+    opacity: 0.5;
+    cursor-pointer: none;
+  }
+  img {
+    transform: rotate(180deg);
+  }
+}
+
+#slide-count {
+  margin: 0 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+#next-arrow {
+  &.slick-disabled {
+    opacity: 0.5;
+    cursor-pointer: none;
+  }
+}

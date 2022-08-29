@@ -1,0 +1,72 @@
+.necessary {
+  margin-top: 39px;
+  &__heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+  }
+  &__showcase {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__card {
+    width: 253px;
+    padding: 12px 12.5px 14.5px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    &-1 {
+      background-image: url("../img/cardFone1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-2 {
+      background-image: url("../img/cardFone2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-3 {
+      background-image: url("../img/cardFone3.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-4 {
+      background-image: url("../img/cardFone4.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-5 {
+      background-image: url("../img/cardFone5.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-6 {
+      background-image: url("../img/cardFone6.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &-mini {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #FFFFFF;
+    }
+  }
+  &__headline {
+    margin-top: 4px;
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,23 @@
+.info {
+  margin-top: 42px;
+  display: flex;
+  align-items: center;
+  &__img {
+    width: 48px;
+    height: 48px;
+    margin-right: 21px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #333333;
+    .bold {
+      font-weight: 700;
+      color: #333333;
+    }
+    span {
+      color: #E2001A;
+    }
+  }
+}

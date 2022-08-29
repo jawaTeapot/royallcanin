@@ -1,0 +1,135 @@
+.events {
+  margin-top: 59px;
+  &__heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+    span {
+      color: #E2001A;
+    }
+  }
+  &__showcase {
+    margin-top: 25px;
+  }
+  &__card {
+    height: 148px;
+    display: flex;
+    margin-bottom: 12px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &-padding {
+      padding: 12px;
+    }
+    &-left {
+      width: 204px;
+      &-1 {
+        background-image: url("../img/eventsFone1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &-2 {
+        background-image: url("../img/eventsFone2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    &-flex {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+    }
+    &-block {
+      margin-right: 29px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    &-leftHeading {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 43px;
+      color: #FFFFFF;
+    }
+    &-text {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #FFFFFF;
+    }
+    &-right {
+      width: 333px;
+      padding: 18px;
+      background-color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &-headline {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      text-transform: uppercase;
+      color: #6FA7AC;
+      span {
+        color: #E2001A;
+      }
+    }
+    &-rightHeading {
+      margin-top: 5px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      color: #333333;
+    }
+    &-rightBottom {
+      display: flex;
+      align-items: baseline;
+      &-2 {
+        .events__card-rightImg {
+          width: 38px;
+          height: 38px;
+        }
+        .events__card-rightFlex {
+          align-items: flex-start;
+        }
+      }
+    }
+    &-rightFlex {
+      margin-right: 10px;
+      display: flex;
+      align-items: baseline;
+    }
+    &-rightImg {
+      width: 10px;
+      height: 15px;
+      margin-right: 5px;
+    }
+    &-rightAddress {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 14px;
+      color: #333333;
+    }
+    &-rightText {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      color: #666666;
+    }
+  }
+  &__btn {
+    margin-top: 20px;
+    padding: 9.5px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #333333;
+    border-radius: 120px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+}

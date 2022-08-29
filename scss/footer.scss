@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 122px;
+  padding: 71px 0 114px;
+  background-color: #333333;
+  &__text {
+    margin-left: 298px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+}

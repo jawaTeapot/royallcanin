@@ -1,0 +1,74 @@
+.registration {
+  width: 872px;
+  height: 220px;
+  background-color: #EBEBEB;
+  margin-top: 57px;
+  position: relative;
+  .slick-next, .slick-arrow {
+    display: none !important;
+  }
+  .slick-dots li {
+    margin: 0 !important;
+  }
+  &__card {
+    display: flex;
+    &-left {
+      width: 50%;
+      padding: 100px 32px 30px;
+    }
+    &-text {
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #333333;
+    }
+    &-btn {
+      margin-top: 14px;
+      padding: 14.5px 42px;
+      background-color: #E2001A;
+      border-radius: 120px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+    }
+    &-right {
+      width: 50%;
+    }
+    &-padding {
+      padding: 23px 6px;
+    }
+    &-get {
+      padding: 5px 7px;
+      border: 1px solid #666666;
+      background-color: transparent;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: #666666;
+    }
+    &-heading {
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 100px;
+      color: #333333;
+    }
+    &-headline {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      color: #333333;
+    }
+  }
+  &__img {
+    position: absolute;
+    bottom: -45px;
+    right: 255px;
+  }
+}
