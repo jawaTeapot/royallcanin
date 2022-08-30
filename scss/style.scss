@@ -1,7 +1,6 @@
 @import "reset";
 @import "fonts";
-@import "_common.scss";
-
+@import "common.scss";
 
 html {
   font-size: calc(100vw / 375);
@@ -15,14 +14,19 @@ body {
   background-color: #F6F6F6;
   box-sizing: border-box;
 }
+//main {
+//  width: 100%;
+//}
 .container {
   width: 100%;
   max-width: 1170rem;
   margin: 0 auto;
 }
-
 .wrapper {
   display: flex;
+}
+.main {
+  width: 100%;
 }
 @import "header.scss";
 @import "nav.scss";
@@ -38,6 +42,7 @@ body {
 @import "mailing.scss";
 @import "ecosystem.scss";
 @import "support.scss";
+@import "user.scss";
 
 .custom-nav {
   display: flex;

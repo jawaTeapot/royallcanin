@@ -40,5 +40,10 @@
     &:last-child {
       margin-bottom: 0;
     }
+    span {
+      font-size: 8rem;
+      position: relative;
+      top: -2rem;
+    }
   }
 }

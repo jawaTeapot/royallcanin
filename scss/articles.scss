@@ -42,6 +42,10 @@
       justify-content: space-between;
       align-items: flex-start;
     }
+    &-img {
+      width: 17rem;
+      height: 17rem;
+    }
     &-time {
       padding: 2rem 4rem;
       background-color: rgba(255, 255, 255, 0.3);
@@ -110,10 +114,9 @@
       align-items: center;
       margin-right: 9rem;
     }
-    &-like {
-      margin-right: 2rem;
-    }
-    &-eye {
+    &-blockImg {
+      width: 12rem;
+      height: 12rem;
       margin-right: 2rem;
     }
     &-footerText {

@@ -10,7 +10,7 @@
   &__block {
     display: flex;
     align-items: center;
-    padding: 10rem 32rem;
+    padding: 10rem 27rem;
     border-left: 0.5rem solid rgba(255, 255, 255, 0.25);
     border-right: 0.5rem solid rgba(255, 255, 255, 0.25);
     &:last-child {
@@ -23,11 +23,16 @@
       line-height: 13rem;
       text-transform: uppercase;
       color: #FFFFFF;
+      span {
+        font-size: 8rem;
+        position: relative;
+        top: -2rem;
+      }
     }
     &-img {
       margin-right: 5rem;
-      width: 13px;
-      height: 13px;
+      width: 13rem;
+      height: 13rem;
     }
   }
   &__bottom {
