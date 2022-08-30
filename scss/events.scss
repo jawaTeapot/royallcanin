@@ -1,29 +1,29 @@
 .events {
-  margin-top: 59px;
+  margin-top: 58rem;
   &__heading {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 30rem;
+    line-height: 36rem;
     color: #333333;
     span {
       color: #E2001A;
     }
   }
   &__showcase {
-    margin-top: 25px;
+    margin-top: 25rem;
   }
   &__card {
-    height: 148px;
+    height: 148rem;
     display: flex;
-    margin-bottom: 12px;
+    margin-bottom: 12rem;
     &:last-child {
       margin-bottom: 0;
     }
     &-padding {
-      padding: 12px;
+      padding: 12rem;
     }
     &-left {
-      width: 204px;
+      width: 205rem;
       &-1 {
         background-image: url("../img/eventsFone1.png");
         background-size: cover;
@@ -36,31 +36,35 @@
       }
     }
     &-flex {
-      margin-top: 20px;
+      margin-top: 22rem;
       display: flex;
       align-items: center;
     }
     &-block {
-      margin-right: 29px;
+      margin-right: 29rem;
       &:last-child {
         margin-right: 0;
       }
     }
+    &-leftImg {
+      width: 17rem;
+      height: 17rem;
+    }
     &-leftHeading {
       font-weight: 700;
-      font-size: 36px;
-      line-height: 43px;
+      font-size: 36rem;
+      line-height: 43rem;
       color: #FFFFFF;
     }
     &-text {
       font-weight: 400;
-      font-size: 12px;
-      line-height: 14px;
+      font-size: 12rem;
+      line-height: 14rem;
       color: #FFFFFF;
     }
     &-right {
-      width: 333px;
-      padding: 18px;
+      width: 370rem;
+      padding: 18rem;
       background-color: #FFFFFF;
       display: flex;
       flex-direction: column;
@@ -68,8 +72,8 @@
     }
     &-headline {
       font-weight: 400;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 10rem;
+      line-height: 12rem;
       text-transform: uppercase;
       color: #6FA7AC;
       span {
@@ -77,10 +81,10 @@
       }
     }
     &-rightHeading {
-      margin-top: 5px;
+      margin-top: 5rem;
       font-weight: 700;
-      font-size: 22px;
-      line-height: 26px;
+      font-size: 22rem;
+      line-height: 26rem;
       color: #333333;
     }
     &-rightBottom {
@@ -88,8 +92,8 @@
       align-items: baseline;
       &-2 {
         .events__card-rightImg {
-          width: 38px;
-          height: 38px;
+          width: 38rem;
+          height: 38rem;
         }
         .events__card-rightFlex {
           align-items: flex-start;
@@ -97,39 +101,39 @@
       }
     }
     &-rightFlex {
-      margin-right: 10px;
+      margin-right: 10rem;
       display: flex;
       align-items: baseline;
     }
     &-rightImg {
-      width: 10px;
-      height: 15px;
-      margin-right: 5px;
+      width: 10rem;
+      height: 15rem;
+      margin-right: 5rem;
     }
     &-rightAddress {
       font-weight: 700;
-      font-size: 12px;
-      line-height: 14px;
+      font-size: 12rem;
+      line-height: 14rem;
       color: #333333;
     }
     &-rightText {
       font-weight: 400;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 10rem;
+      line-height: 12rem;
       color: #666666;
     }
   }
   &__btn {
-    margin-top: 20px;
-    padding: 9.5px 16px;
+    margin-top: 20rem;
+    padding: 10rem 16rem;
     border: none;
     outline: none;
     cursor: pointer;
     background-color: #333333;
-    border-radius: 120px;
+    border-radius: 120rem;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 14rem;
+    line-height: 17rem;
     color: #FFFFFF;
   }
 }

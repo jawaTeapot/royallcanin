@@ -2,35 +2,35 @@
   display: flex;
   justify-content: space-between;
   &__left {
-    margin-top: 29px;
+    margin-top: 31rem;
     width: 50%;
     &-heading {
       font-weight: 700;
-      font-size: 36px;
-      line-height: 43px;
+      font-size: 36rem;
+      line-height: 43rem;
       color: #333333;
       span {
         color: #E2001A;
       }
     }
     &-text {
-      margin: 11px 0 19px;
+      margin: 11rem 0 19rem;
       font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
+      font-size: 18rem;
+      line-height: 22rem;
       color: #333333;
     }
     &-btn {
-      margin-left: 1px;
-      padding: 14.5px;
+      margin-left: 1rem;
+      padding: 14.5rem;
       background-color: #E2001A;
-      border-radius: 120px;
+      border-radius: 120rem;
       border: none;
       outline: none;
       cursor: pointer;
       font-weight: 700;
-      font-size: 16px;
-      line-height: 19px;
+      font-size: 16rem;
+      line-height: 19rem;
       color: #FFFFFF;
     }
   }
@@ -41,13 +41,13 @@
     background-size: cover;
     position: relative;
     &-margin {
-      margin-top: 77px;
-      margin-left: 98px;
+      margin-top: 77rem;
+      margin-left: 98rem;
     }
     &-headline {
       font-weight: 400;
-      font-size: 100px;
-      line-height: 104px;
+      font-size: 100rem;
+      line-height: 104rem;
       color: #212121;
       span {
         color: #E2001A;
@@ -55,19 +55,19 @@
     }
     &-text {
       font-weight: 700;
-      font-size: 22px;
-      line-height: 26px;
+      font-size: 22rem;
+      line-height: 26rem;
       color: #212121;
     }
     &-icon {
       position: absolute;
-      left: -22px;
-      bottom: -4px;
+      left: -22rem;
+      bottom: -4rem;
     }
     &-icon-1 {
       position: absolute;
-      right: 11px;
-      bottom: 121px;
+      right: 11rem;
+      bottom: 121rem;
     }
   }
 }

@@ -1,34 +1,40 @@
 .ecosystem {
-  margin-top: 32px;
+  margin-top: 31rem;
   display: flex;
   justify-content: space-between;
   &__resources {
-    width: 425px;
+    width: 425rem;
   }
   &__projects {
-    width: 276px;
+    width: 276rem;
   }
   &__documents {
-    width: 425px;
+    width: 425rem;
   }
   &__heading {
-    padding-bottom: 6px;
-    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 6rem;
+    border-bottom: 1rem solid #FFFFFF;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 16rem;
+    line-height: 19rem;
     color: #FFFFFF;
   }
   &__block {
-    margin-top: 13px;
+    margin-top: 13rem;
     display: flex;
     justify-content: space-between;
   }
+  &__item {
+    width: 128rem;
+    &-1 {
+      width: 213rem;
+  }
+  }
   &__text {
-    margin-bottom: 6px;
+    margin-bottom: 6rem;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 12rem;
+    line-height: 14rem;
     color: #FFFFFF;
     cursor: pointer;
     &:last-child {

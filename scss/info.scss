@@ -1,16 +1,16 @@
 .info {
-  margin-top: 42px;
+  margin-top: 40rem;
   display: flex;
   align-items: center;
   &__img {
-    width: 48px;
-    height: 48px;
-    margin-right: 21px;
+    width: 48rem;
+    height: 48rem;
+    margin-right: 21rem;
   }
   &__text {
     font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 22rem;
+    line-height: 28rem;
     color: #333333;
     .bold {
       font-weight: 700;

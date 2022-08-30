@@ -1,29 +1,30 @@
 .footer {
-
-  margin-top: 122px;
-  padding: 71px 0 48px;
+  margin-top: 121rem;
+  padding: 71rem 0 46rem;
   background-color: #333333;
   &__block{
-    margin-top: 20px;
+    margin-top: 22rem;
     display: flex;
     align-items: center;
   }
   &__img {
-    margin-right: 28px;
+    width: 270rem;
+    height: 32rem;
+    margin-right: 28rem;
   }
   &__text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 14rem;
+    line-height: 18rem;
     color: #FFFFFF;
   }
   &__bottom {
-    margin-top: 26px;
+    margin-top: 26rem;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 10rem;
+    line-height: 12rem;
     color: #666666;
   }
 }

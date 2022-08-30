@@ -1,5 +1,5 @@
 .header {
-    border-bottom: 1px solid #D7D7D7;
+    border-bottom: 1rem solid #D7D7D7;
   &__top {
     background-color: #333333;
   }
@@ -8,23 +8,30 @@
     align-items: center;
   }
   &__block {
-    padding: 7.5px 32px;
-    border-left: 0.5px solid rgba(255, 255, 255, 0.25);
-    border-right: 0.5px solid rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    padding: 10rem 32rem;
+    border-left: 0.5rem solid rgba(255, 255, 255, 0.25);
+    border-right: 0.5rem solid rgba(255, 255, 255, 0.25);
     &:last-child {
       border-left: none;
     }
     &-link {
       text-decoration: none;
       font-weight: 700;
-      font-size: 10px;
-      line-height: 13px;
+      font-size: 10rem;
+      line-height: 13rem;
       text-transform: uppercase;
       color: #FFFFFF;
     }
+    &-img {
+      margin-right: 5rem;
+      width: 13px;
+      height: 13px;
+    }
   }
   &__bottom {
-    padding: 18px 0;
+    padding: 16rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,39 +40,46 @@
       align-items: center;
     }
   }
+  &__logo {
+    width: 270px;
+    height: 32px;
+  }
   &__search {
     display: flex;
     align-items: center;
-    width: 340px;
-    padding: 14px 16px;
+    width: 374rem;
+    padding: 14rem 16rem;
     background-color: #FFFFFF;
-    border: 1px solid #F6F6F6;
-    border-radius: 65px;
+    border: 1rem solid #F6F6F6;
+    border-radius: 65rem;
+  }
+  &__img {
+    width: 16rem;
+    height: 16rem;
   }
   &__input {
-    margin-left: 6px;
+    margin-left: 6rem;
     width: 100%;
     border: none;
     outline: none;
-    position: relative;
+    font-weight: 400;
+    font-size: 14rem;
+    line-height: 120%;
      &::placeholder {
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 120%;
-          color: #666666;
+       color: #666666;
      }
   }
   &__btn {
-    margin-left: 34px;
-    padding: 14.5px 35.5px;
+    margin-left: 34rem;
+    padding: 14.5rem 35.5rem;
     background-color: #E2001A;
-    border-radius: 120px;
+    border-radius: 120rem;
     border: none;
     outline: none;
     cursor: pointer;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 16rem;
+    line-height: 19rem;
     color: #FFFFFF;
   }
 }

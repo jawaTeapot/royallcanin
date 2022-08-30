@@ -1,23 +1,23 @@
 .webinar {
-  margin-top: 59px;
+  margin-top: 59rem;
   &__heading {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 30rem;
+    line-height: 36rem;
     color: #333333;
     span {
       color: #E2001A;
     }
   }
   &__showcase {
-    margin-top: 21px;
+    margin-top: 20rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
   &__card {
-    padding: 12px;
-    width: 252px;
+    padding: 12rem;
+    width: 275rem;
     &-1 {
       background-image: url("../img/webinarFone1.png");
       background-size: cover;
@@ -38,60 +38,68 @@
       justify-content: space-between;
       align-items: flex-start;
     }
+    &-img {
+      width: 17rem;
+      height: 17rem;
+    }
     &-time {
-      padding: 2px 4px;
+      padding: 2rem 4rem;
       background-color: rgba(255, 255, 255, 0.3);
-      border-radius: 43px;
+      border-radius: 43rem;
       display: flex;
       align-items: center;
     }
     &-timeImg {
-      margin-right: 2px;
-      width: 8px;
-      height: 8px;
+      margin-right: 2rem;
+      width: 8rem;
+      height: 8rem;
     }
     &-timeText {
       font-weight: 700;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 10rem;
+      line-height: 12rem;
       color: #FFFFFF;
     }
     &-center {
-      margin-top: 35px;
+      margin-top: 35rem;
+    }
+    &-centerImg {
+      width: 40rem;
+      height: 40rem;
     }
     &-headline {
-      margin-top: 4px;
+      margin-top: 4rem;
       font-weight: 400;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 10rem;
+      line-height: 12rem;
       text-transform: uppercase;
       color: #FFFFFF;
     }
     &-heading {
-      margin-top: 2px;
+      margin-top: 4rem;
       font-weight: 700;
-      font-size: 16px;
-      line-height: 19px;
+      font-size: 16rem;
+      line-height: 19rem;
       color: #FFFFFF;
     }
     &-user {
-      margin-top: 4px;
+      margin-top: 4rem;
       display: flex;
       align-items: center;
     }
     &-icon {
-      width: 24px;
-      height: 24px;
+      width: 24rem;
+      height: 24rem;
     }
     &-text {
-      margin-left: 4px;
+      margin-left: 4rem;
       font-weight: 400;
-      font-size: 12px;
+      font-size: 12rem;
       line-height: 120%;
       color: #FFFFFF;
     }
     &-footer {
-      margin-top: 38px;
+      margin-top: 38rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -103,34 +111,33 @@
     &-block {
       display: flex;
       align-items: center;
-      margin-right: 9px;
+      margin-right: 9rem;
     }
-    &-like {
-      margin-right: 2px;
-    }
-    &-eye {
-      margin-right: 2px;
+    &-blockImg {
+      width: 12rem;
+      height: 12rem;
+      margin-right: 2rem;
     }
     &-footerText {
       font-weight: 400;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 10rem;
+      line-height: 12rem;
       display: flex;
       align-items: center;
       color: #FFFFFF;
     }
   }
   &__btn {
-    margin-top: 20px;
-    padding: 9.5px 16px;
+    margin-top: 20rem;
+    padding: 10rem 16rem;
     border: none;
     outline: none;
     cursor: pointer;
     background-color: #333333;
-    border-radius: 120px;
+    border-radius: 120rem;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 14rem;
+    line-height: 17rem;
     color: #FFFFFF;
   }
 }

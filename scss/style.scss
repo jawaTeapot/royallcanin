@@ -1,6 +1,14 @@
-@import "_mixins.scss";
 @import "reset";
 @import "fonts";
+@import "_common.scss";
+
+
+html {
+  font-size: calc(100vw / 375);
+  @include desktop {
+    font-size: calc(100vw / 1440);
+  }
+}
 
 body {
   font-family: 'DIN Pro', sans-serif;
@@ -9,7 +17,7 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1170rem;
   margin: 0 auto;
 }
 
@@ -35,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 18px;
+  margin-top: 18rem;
 }
 
 #prev-arrow {
@@ -49,10 +57,10 @@ body {
 }
 
 #slide-count {
-  margin: 0 12px;
+  margin: 0 12rem;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 18rem;
+  line-height: 22rem;
   color: #333333;
 }
 

@@ -1,13 +1,13 @@
 .support {
-  margin-top: 23px;
+  margin-top: 23rem;
   display: flex;
   &__info {
-    width: 685px;
-    margin-right: 25px;
+    width: 685rem;
+    margin-right: 25rem;
     display: flex;
   }
   &__block {
-    margin-right: 25px;
+    margin-right: 25rem;
     &:last-child {
       margin-right: 0;
     }
@@ -15,15 +15,15 @@
   &__link {
     text-decoration: none;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 14rem;
+    line-height: 17rem;
     color: #FFFFFF;
   }
   &__heading {
-    margin-top: 2px;
+    margin-top: 3rem;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 10rem;
+    line-height: 12rem;
     color: #FFFFFF;
     span {
       color: #666666;
@@ -35,9 +35,10 @@
     justify-content: space-between;
   }
   &__text {
+    margin-top: 4rem;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 10rem;
+    line-height: 12rem;
     color: #FFFFFF;
     cursor: pointer;
   }
@@ -47,9 +48,9 @@
     align-items: center;
   }
   &__img {
-    margin-right: 12px;
-    width: 29px;
-    height: 29px;
+    margin-right: 12rem;
+    width: 29rem;
+    height: 29rem;
     cursor: pointer;
     &:last-child {
       margin-right: 0;

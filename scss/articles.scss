@@ -1,21 +1,21 @@
 .articles {
-  margin-top: 58px;
+  margin-top: 59rem;
   &__heading {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 30rem;
+    line-height: 36rem;
     color: #333333;
     span {
       color: #E2001A;
     }
   }
   &__showcase {
-    margin-top: 21px;
+    margin-top: 20rem;
     display: flex;
     justify-content: space-between;
   }
   &__card {
-    width: 276px;
+    width: 276rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,67 +36,67 @@
       background-repeat: no-repeat;
     }
     &-top {
-      padding: 12px;
-      height: 72px;
+      padding: 12rem;
+      height: 96rem;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
     }
     &-time {
-      padding: 2px 4px;
+      padding: 2rem 4rem;
       background-color: rgba(255, 255, 255, 0.3);
-      border-radius: 43px;
+      border-radius: 43rem;
       display: flex;
       align-items: center;
     }
     &-timeImg {
-      margin-right: 2px;
-      width: 8px;
-      height: 8px;
+      margin-right: 2rem;
+      width: 8rem;
+      height: 8rem;
     }
     &-timeText {
       font-weight: 700;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 10rem;
+      line-height: 12rem;
       color: #FFFFFF;
     }
     &-flex {
-      padding: 7px 11px 0;
+      padding: 12rem 12rem 0;
     }
     &-link {
       text-decoration: none;
       font-weight: 400;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 10rem;
+      line-height: 12rem;
       text-transform: uppercase;
       color: #E2001A;
     }
     &-heading {
-      margin-top: 4px;
+      margin-top: 4rem;
       font-weight: 700;
-      font-size: 16px;
-      line-height: 19px;
+      font-size: 16rem;
+      line-height: 19rem;
       color: #313131;
     }
     &-user {
-      margin-top: 4px;
+      margin-top: 4rem;
       display: flex;
       align-items: center;
     }
     &-icon {
-      width: 24px;
-      height: 24px;
+      width: 24rem;
+      height: 24rem;
     }
     &-text {
-      margin-left: 4px;
+      margin-left: 4rem;
       font-weight: 400;
-      font-size: 12px;
+      font-size: 12rem;
       line-height: 120%;
       color: #333333;
     }
     &-footer {
-      padding: 0 12px 12px;
-      margin-top: 38px;
+      padding: 0 12rem 12rem;
+      margin-top: 38rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -108,34 +108,34 @@
     &-block {
       display: flex;
       align-items: center;
-      margin-right: 9px;
+      margin-right: 9rem;
     }
     &-like {
-      margin-right: 2px;
+      margin-right: 2rem;
     }
     &-eye {
-      margin-right: 2px;
+      margin-right: 2rem;
     }
     &-footerText {
       font-weight: 400;
-      font-size: 10px;
-      line-height: 12px;
+      font-size: 10rem;
+      line-height: 12rem;
       display: flex;
       align-items: center;
       color: #666666;
     }
   }
   &__btn {
-    margin-top: 20px;
-    padding: 9.5px 16px;
+    margin-top: 20rem;
+    padding: 10rem 16rem;
     border: none;
     outline: none;
     cursor: pointer;
     background-color: #333333;
-    border-radius: 120px;
+    border-radius: 120rem;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 14rem;
+    line-height: 17rem;
     color: #FFFFFF;
   }
 }
