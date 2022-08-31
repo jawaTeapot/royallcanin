@@ -1,0 +1,14 @@
+.store {
+  padding: 32rem 0 60rem;
+  &__top {
+    display: flex;
+    border-bottom: 1rem solid #D7D7D7;
+    &-tab {
+      padding: 12rem 10rem;
+      font-weight: 700;
+      font-size: 16rem;
+      line-height: 19rem;
+      color: #333333;
+    }
+  }
+}

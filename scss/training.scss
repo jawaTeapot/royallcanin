@@ -1,0 +1,42 @@
+.training {
+  &__showcase {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    width: 276rem;
+    background-color: #FFFFFF;
+    &-1 {
+      background-image: url("../img/cardArticles1.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &-top {
+      padding: 12rem;
+      height: 96rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    &-img {
+      width: 17rem;
+      height: 17rem;
+    }
+    &-progress {
+      width: 60rem;
+      height: 60rem;
+      background-color: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(7rem);
+      opacity: 0.3;
+      border-radius: 43rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &-progressText {
+      font-weight: 400;
+      font-size: 18rem;
+      line-height: 22rem;
+      color: #FFFFFF;
+    }
+  }
+}
