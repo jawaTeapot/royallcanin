@@ -1,0 +1,105 @@
+.credit {
+  margin-top: 39rem;
+}
+.available {
+  padding: 32rem;
+  background-color: #FFFFFF;
+  border-radius: 18rem;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__heading {
+    font-weight: 700;
+    font-size: 30rem;
+    line-height: 36rem;
+    color: #333333;
+  }
+  &__buttons {
+    margin-top: 22rem;
+  }
+  &__btn {
+    margin-right: 12rem;
+    padding: 15rem 26rem;
+    border: none;
+    cursor: pointer;
+    background: #E2001A;
+    border-radius: 120rem;
+    font-weight: 700;
+    font-size: 15rem;
+    line-height: 18rem;
+    color: #FFFFFF;
+    &:last-child {
+      margin-right: 0;
+      padding: 15rem 18rem;
+    }
+  }
+  &__right {
+    padding-right: 15rem;
+    &-heading {
+      font-weight: 400;
+      font-size: 80rem;
+      line-height: 75rem;
+      color: #333333;
+    }
+  }
+  &__text {
+    font-weight: 700;
+    font-size: 14rem;
+    line-height: 17rem;
+    color: #333333;
+  }
+  &__bottom {
+    margin-top: 31rem;
+    padding-bottom: 15rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1rem solid #333333;
+  }
+  &__headline {
+    font-weight: 700;
+    font-size: 22rem;
+    line-height: 26rem;
+    color: #333333;
+  }
+  &__img {
+    width: 14rem;
+    height: 8rem;
+  }
+}
+.bonus {
+  margin-top: 30rem;
+  background-image: url("../img/bonusFone.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border-radius: 18rem 0 0 18rem;
+  &__block {
+    width: 574rem;
+    padding: 32rem;
+    background-color: #FFFFFF;
+    border-radius: 18rem;
+  }
+  &__heading {
+    font-weight: 700;
+    font-size: 30rem;
+    line-height: 36rem;
+    color: #333333;
+    span {
+      color: #E2001A;
+    }
+  }
+  &__btn {
+    margin-top: 19rem;
+    padding: 15rem 23rem;
+    border: none;
+    cursor: pointer;
+    background: #E2001A;
+    border-radius: 120rem;
+    font-weight: 700;
+    font-size: 15rem;
+    line-height: 18rem;
+    color: #FFFFFF;
+  }
+}

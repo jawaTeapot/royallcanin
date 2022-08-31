@@ -2,6 +2,31 @@
     border-bottom: 1rem solid #D7D7D7;
   &__top {
     background-color: #333333;
+    &-flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-img {
+      margin-right: 16rem;
+      width: 17rem;
+      height: 17rem;
+    }
+    &-btn {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 8rem 36rem 7rem;
+      background-color: #E2001A;
+      font-weight: 400;
+      font-size: 9rem;
+      line-height: 12rem;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
   }
   &__flex {
     display: flex;
@@ -10,7 +35,7 @@
   &__block {
     display: flex;
     align-items: center;
-    padding: 10rem 27rem;
+    padding: 9rem 27rem;
     border-left: 0.5rem solid rgba(255, 255, 255, 0.25);
     border-right: 0.5rem solid rgba(255, 255, 255, 0.25);
     &:last-child {
@@ -86,5 +111,64 @@
     font-size: 16rem;
     line-height: 19rem;
     color: #FFFFFF;
+  }
+  &__user {
+    display: none;
+    margin-left: 24rem;
+    align-items: center;
+    &-notify {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38rem;
+      height: 38rem;
+      background-color: #FFFFFF;
+      border-radius: 20rem;
+    }
+    &_img {
+      width: 22rem;
+      height: 22rem;
+    }
+    &-account {
+      margin-left: 9rem;
+      padding: 9rem 13rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1rem solid #D7D7D7;
+      border-radius: 27rem;
+    }
+    &-avatar {
+      width: 34rem;
+      height: 34rem;
+      background-image: url("../img/avatar.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-block {
+      margin: 0 20rem 0 5rem;
+    }
+    &-heading {
+      font-weight: 700;
+      font-size: 16rem;
+      line-height: 19rem;
+      color: #212121;
+    }
+    &-text {
+      font-weight: 300;
+      font-size: 10rem;
+      line-height: 12rem;
+      color: #212121;
+    }
+    &-btn {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    &-btnImg {
+      width: 24rem;
+      height: 24rem;
+    }
   }
 }

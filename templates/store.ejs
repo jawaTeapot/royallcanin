@@ -1,10 +1,18 @@
 <div class="store">
     <div class="store__top">
-        <div class="store__top-tab">Мои активные обучения</div>
-        <div class="store__top-tab">Избранное </div>
-        <div class="store__top-tab">Мои VetБонусы</div>
+        <div class="store__top-tab store__text :active">Мои активные обучения</div>
+        <div class="store__top-tab store__text">Избранное </div>
+        <div class="store__top-tab">
+            <div class="store__text">Мои <span>Vet</span>Бонусы</div>
+            <div class="store__top-icon">
+                <div class="store__top-text">2000</div>
+                <img class="store__top-img" src="./img/group1031.svg" alt="img">
+            </div>
+        </div>
     </div>
     <div class="store__showcase">
-        <%- include('training.ejs'); %>
+<!--        <%- include('training.ejs'); %>-->
+        <%- include('credit.ejs'); %>
+        <%- include('gifts.ejs'); %>
     </div>
 </div>
