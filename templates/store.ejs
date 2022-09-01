@@ -1,8 +1,8 @@
 <div class="store">
-    <div class="store__top">
-        <div class="store__top-tab store__text :active">Мои активные обучения</div>
-        <div class="store__top-tab store__text">Избранное </div>
-        <div class="store__top-tab">
+    <div class="store__top" id="tabs">
+        <div class="store__top-tab store__text active" data-tab="training">Мои активные обучения</div>
+        <div class="store__top-tab store__text" data-tab="favorites">Избранное </div>
+        <div class="store__top-tab" data-tab="tab-bonus">
             <div class="store__text">Мои <span>Vet</span>Бонусы</div>
             <div class="store__top-icon">
                 <div class="store__top-text">2000</div>
@@ -11,8 +11,10 @@
         </div>
     </div>
     <div class="store__showcase">
-<!--        <%- include('training.ejs'); %>-->
-        <%- include('credit.ejs'); %>
-        <%- include('gifts.ejs'); %>
+        <%- include('training.ejs'); %>
+        <div class="tab-content tab-bonus">
+            <%- include('credit.ejs'); %>
+            <%- include('gifts.ejs'); %>
+        </div>
     </div>
 </div>

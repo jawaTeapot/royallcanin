@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $('#registration').slick({
         dots: true,
     });
@@ -31,4 +32,13 @@ $(document).ready(function(){
         nextArrow: $('#next-arrow')
     });
 
+    $('#tabs .store__top-tab').on('click', function () {
+        $('#tabs .store__top-tab').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-content').hide();
+        $('.' + $(this).data().tab).show();
+        setTimeout(function () {
+            $gifts.slick('refresh');
+        }, 100);
+    })
 });
