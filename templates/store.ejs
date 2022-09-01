@@ -1,7 +1,7 @@
 <div class="store">
     <div class="store__top" id="tabs">
-        <div class="store__top-tab store__text active" data-tab="training">Мои активные обучения</div>
-        <div class="store__top-tab store__text" data-tab="favorites">Избранное </div>
+        <div class="store__top-tab store__text active" data-tab="tab-training">Мои активные обучения</div>
+        <div class="store__top-tab store__text" data-tab="tab-favorites">Избранное </div>
         <div class="store__top-tab" data-tab="tab-bonus">
             <div class="store__text">Мои <span>Vet</span>Бонусы</div>
             <div class="store__top-icon">
@@ -11,8 +11,12 @@
         </div>
     </div>
     <div class="store__showcase">
-        <%- include('training.ejs'); %>
-        <%- include('favorites.ejs'); %>
+        <div class="tab-content tab-training">
+            <%- include('training.ejs'); %>
+        </div>
+        <div class="tab-content tab-favorites">
+            <%- include('favorites.ejs'); %>
+        </div>
         <div class="tab-content tab-bonus">
             <%- include('credit.ejs'); %>
             <%- include('gifts.ejs'); %>

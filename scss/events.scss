@@ -12,13 +12,15 @@
   &__showcase {
     margin-top: 25rem;
   }
-  &__card {
-    height: 148rem;
-    display: flex;
+  &__block {
     margin-bottom: 12rem;
     &:last-child {
       margin-bottom: 0;
     }
+  }
+  &__card {
+    height: 148rem;
+    display: flex;
     &-padding {
       padding: 12rem;
     }
