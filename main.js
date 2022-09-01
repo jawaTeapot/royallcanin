@@ -22,7 +22,7 @@ $(document).ready(function(){
 
     $gifts.on('init reInit afterChange', function(event, slick, currentSlide){
         const i = (currentSlide ? currentSlide : 0) + 1;
-        $countSlide.text(i + '/' + slick.countSlide);
+        $countSlide.text(i + '/' + slick.slideCount);
     });
 
     $gifts.slick({
@@ -32,4 +32,3 @@ $(document).ready(function(){
     });
 
 });
-gifts
