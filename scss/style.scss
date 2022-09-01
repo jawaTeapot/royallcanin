@@ -49,6 +49,8 @@ body {
 @import "choice.scss";
 @import "credit.scss";
 @import "gifts.scss";
+@import "enter.scss";
+@import "modal.scss";
 
 .custom-nav {
   display: flex;
@@ -67,7 +69,7 @@ body {
   }
 }
 
-#slide-count {
+#slide-count, #count-slide {
   margin: 0 12rem;
   font-weight: 400;
   font-size: 18rem;

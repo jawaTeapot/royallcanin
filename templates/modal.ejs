@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang=ru>
+<%- include('head.ejs'); %>
+<body>
+<%- include('header.ejs'); %>
+<main class="modal">
+<!--    Уведомления-->
+<!--    1-->
+    <div class="notification">
+        <div class="notification__heading">Уведомления</div>
+        <div class="notification__nav">
+            <div class="notification__item">Бонусы</div>
+            <div class="notification__item">Новый материал</div>
+            <div class="notification__item">Сообщения от VetAcademy</div>
+            <div class="notification__item">Статус по заказу</div>
+        </div>
+        <div class="notification__info">
+            <div class="notification__msg">
+                <div class="notification__block">
+                    <img class="notification__img" src="./img/ellipse251.png" alt="img">
+                    <div class="notification__flex">
+                        <div class="notification__headline">Заполнить данные в форме регистрации</div>
+                        <div class="notification__text">Рабы видеть вас на ВетАкадемии заполните все данные профиля и мы лучше познакомимся <span><u>заполнить данные</u></span></div>
+                    </div>
+                </div>
+                <div class="notification__data">22.06.2022 17:00</div>
+            </div>
+            <div class="notification__msg">
+                <div class="notification__block">
+                    <img class="notification__img" src="./img/infoIcon.svg" alt="img">
+                    <div class="notification__flex">
+                        <div class="notification__headline">Начислено 200 баллов!</div>
+                        <div class="notification__text">Спасибо за регистрацию на сайте. Вы получили 200 баллов на счет. Мы подготовили информацию о том <span><u>как баллы потратить</u></span> и как <span><u>заработать новые баллы</u></span></div>
+                    </div>
+                </div>
+                <div class="notification__data">22.06.2022 17:00</div>
+            </div>
+        </div>
+        <img class="notification__close" src="./img/close.svg" alt="img">
+    </div>
+<!--    2-->
+    <div class="lcSettings">
+        <div class="lcSettings__item">
+            <img class="lcSettings__img" src="./img/user1.svg" alt="img">
+            <a class="lcSettings__link" href="#">Профиль</a>
+        </div>
+        <div class="lcSettings__item">
+            <img class="lcSettings__img" src="./img/user2.svg" alt="img">
+            <a class="lcSettings__link" href="#">Войти, как организация</a>
+        </div>
+        <div class="lcSettings__item">
+            <img class="lcSettings__img" src="./img/exit.svg" alt="img">
+            <a class="lcSettings__link" href="#">Выйти</a>
+        </div>
+    </div>
+<!--    поиск-->
+    <div class="search">
+        <div class="search__top">
+            <img class="search__img" src="./img/image91.png" alt="img">
+            <div>
+                <div class="search__heading">Не нашли, что искали?<br>Попробуйте такие варианты</div>
+                <div class="search__buttons">
+                    <div class="search__btn">Лейкимия у кошек</div>
+                    <div class="search__btn">Аллергия у кошек</div>
+                </div>
+            </div>
+        </div>
+        <div class="search__bottom">
+            <div class="search__block">
+                <div class="search__headline">Статьи</div>
+                <div class="search__text">Пробная элиминационная диета: настрой на успех</div>
+                <div class="search__text">Дисбиоз кишечника у собак</div>
+            </div>
+            <div class="search__block">
+                <div class="search__headline">Товары</div>
+                <div class="search__text">Книга: «Элиминационная диета: настрой на успех»</div>
+            </div>
+        </div>
+        <img class="search__close" src="./img/close.svg" alt="img">
+    </div>
+<!--    вход в систему-->
+    <%- include('enter.ejs'); %>
+</main>
+<%- include('footer.ejs'); %>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript" src="../main.js"></script>
+</body>
+</html>

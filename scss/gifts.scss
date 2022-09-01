@@ -26,7 +26,13 @@
     }
   }
   &__showcase {
+    width: 872rem;
     margin-top: 29rem;
+    //display: flex;
+    //flex-wrap: wrap;
+    //justify-content: space-between;
+  }
+  &__flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
