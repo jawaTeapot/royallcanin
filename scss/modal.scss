@@ -193,9 +193,11 @@
   }
 }
 .recovery {
+  top: -2368rem;
+  left: 441rem;
   width: 458px;
   height: 389px;
-  padding: 44rem;
+  padding: 44rem 41rem;
   background-color: #FFFFFF;
   position: relative;
   &__header {
@@ -205,14 +207,14 @@
     color: #333333;
   }
   &__text {
-    margin-top: 5rem;
+    margin-top: 9rem;
     font-weight: 400;
     font-size: 16rem;
     line-height: 19rem;
     color: #333333;
   }
   &__form {
-    margin-top: 53rem;
+    margin-top: 51rem;
   }
   &__headline {
     font-weight: 700;
@@ -222,7 +224,8 @@
     color: #333333;
   }
   &__flex {
-    padding-bottom: 6rem;
+    margin-top: 2rem;
+    padding-bottom: 10rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -244,12 +247,16 @@
     height: 24rem;
   }
   &__span {
-    margin-top: 10rem;
+    margin-top: 29rem;
     font-weight: 300;
     font-size: 14rem;
     line-height: 17rem;
     color: #E2001A;
     text-align: right;
+  }
+  &__btn {
+    margin-top: 22rem;
+    padding: 16rem 142rem;
   }
   &__close {
     width: 30rem;
