@@ -147,5 +147,14 @@
     font-size: 14rem;
     line-height: 17rem;
     color: #FFFFFF;
+
+    &:hover {
+      background: #666666;
+    }
+
+    &:active {
+      background: #333333;
+      opacity: 0.3;
+    }
   }
 }
