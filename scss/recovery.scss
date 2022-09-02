@@ -42,7 +42,7 @@
     margin-top: 51rem;
   }
   &__block {
-    height: 60rem;
+    min-height: 60rem;
   }
   &__headline {
     font-weight: 700;
@@ -102,6 +102,7 @@
     color: #B13F48;
     &--creature {
       display: none;
+      margin-bottom: 29rem;
     }
   }
   &__span {
@@ -237,7 +238,7 @@
   .recovery__flex {
     display: none;
     &--creature {
-      display: block;
+      display: flex;
     }
   }
   .recovery__error {
