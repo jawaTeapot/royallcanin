@@ -15,6 +15,9 @@
     &--passwordRecovery {
       display: none;
     }
+    &--creature {
+      display: none;
+    }
   }
   &__text {
     margin-top: 9rem;
@@ -26,6 +29,9 @@
       display: none;
     }
     &--mail {
+      display: none;
+    }
+    &--creature {
       display: none;
     }
     span {
@@ -53,6 +59,9 @@
     &--sms {
       display: none;
     }
+    &--creature {
+      display: none;
+    }
   }
   &__flex {
     margin-top: 2rem;
@@ -61,6 +70,9 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 2rem solid #333333;
+    &--creature {
+      display: none;
+    }
   }
   &__input {
     border: none;
@@ -76,6 +88,9 @@
   &__img {
     width: 24rem;
     height: 24rem;
+    &--creature {
+      display: none;
+    }
   }
   &__error {
     display: none;
@@ -85,6 +100,9 @@
     font-size: 10rem;
     line-height: 12rem;
     color: #B13F48;
+    &--creature {
+      display: none;
+    }
   }
   &__span {
     margin-top: 19rem;
@@ -195,5 +213,49 @@
   }
   .recovery__btn--mail {
     display: block !important;
+  }
+}
+.creature {
+  .recovery__header {
+    display: none;
+    &--creature {
+      display: block;
+    }
+  }
+  .recovery__text {
+    display: none;
+    &--creature {
+      display: block;
+    }
+  }
+  .recovery__img {
+    display: none;
+    &--creature {
+      display: block;
+    }
+  }
+  .recovery__flex {
+    display: none;
+    &--creature {
+      display: block;
+    }
+  }
+  .recovery__error {
+    display: none;
+    &--creature {
+      display: block;
+    }
+  }
+  .recovery__error--creature {
+    display: block;
+  }
+  .recovery__headline {
+    display: none;
+    &--creature {
+      display: block;
+    }
+  }
+  .recovery__span {
+    display: none;
   }
 }
