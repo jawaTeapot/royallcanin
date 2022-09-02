@@ -25,17 +25,17 @@ $(document).ready(function(){
     const $gifts = $('#gifts');
 
     if ($gifts.length) {
-        const $countSlide = $('#count-slide');
+        const $countSlide = $('#gift-count-slide');
+
+        $gifts.slick({
+            infinite: false,
+            prevArrow: $('#gift-prev-arrow'),
+            nextArrow: $('#gift-next-arrow')
+        });
 
         $gifts.on('init reInit afterChange', function(event, slick, currentSlide){
             const i = (currentSlide ? currentSlide : 0) + 1;
             $countSlide.text(i + '/' + slick.slideCount);
-        });
-
-        $gifts.slick({
-            infinite: false,
-            prevArrow: $('#prev-arrow'),
-            nextArrow: $('#next-arrow')
         });
     }
 

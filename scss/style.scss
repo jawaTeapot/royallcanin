@@ -63,7 +63,7 @@ body {
   margin-top: 18rem;
 }
 
-#prev-arrow {
+.prev-arrow {
   &.slick-disabled {
     opacity: 0.5;
     cursor-pointer: none;
@@ -73,7 +73,7 @@ body {
   }
 }
 
-#slide-count, #count-slide {
+.slide-count, .count-slide {
   margin: 0 12rem;
   font-weight: 400;
   font-size: 18rem;
@@ -81,7 +81,7 @@ body {
   color: #333333;
 }
 
-#next-arrow {
+.next-arrow {
   &.slick-disabled {
     opacity: 0.5;
     cursor-pointer: none;
