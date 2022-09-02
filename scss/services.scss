@@ -14,8 +14,12 @@
     margin-top: 24rem;
     max-width: 872rem;
 
-    .slick-slider .slick-slide {
-      padding: 0 15px;
+    .slick-slide {
+      margin: 0 10px;
+    }
+    /* the parent */
+    .slick-list {
+      margin: 0 -10px;
     }
 
     .slick-slide {
@@ -29,7 +33,7 @@
     }
   }
   &__card {
-    width: 870rem;
+    max-width: 870rem;
     height: 289rem;
     background-image: url("../img/servicesFone.png");
     background-repeat: no-repeat;

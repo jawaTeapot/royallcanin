@@ -16,7 +16,7 @@ $(document).ready(function(){
 
         $services.slick({
             infinite: false,
-            slidesToShow: 1.1,
+            slidesToShow: 1.2,
             prevArrow: $('#prev-arrow'),
             nextArrow: $('#next-arrow')
         });
