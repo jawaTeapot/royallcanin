@@ -1,0 +1,74 @@
+.recovery {
+  top: -2368rem;
+  left: 441rem;
+  width: 458px;
+  height: 389px;
+  padding: 44rem 41rem;
+  background-color: #FFFFFF;
+  position: relative;
+  &__header {
+    font-weight: 700;
+    font-size: 30rem;
+    line-height: 36rem;
+    color: #333333;
+  }
+  &__text {
+    margin-top: 9rem;
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 19rem;
+    color: #333333;
+  }
+  &__form {
+    margin-top: 51rem;
+  }
+  &__headline {
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 12rem;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  &__flex {
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2rem solid #333333;
+  }
+  &__input {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 19rem;
+    color: #363A40;
+    &::placeholder {
+      color: #D7D7D7;
+    }
+  }
+  &__img {
+    width: 24rem;
+    height: 24rem;
+  }
+  &__span {
+    margin-top: 29rem;
+    font-weight: 300;
+    font-size: 14rem;
+    line-height: 17rem;
+    color: #E2001A;
+    text-align: right;
+  }
+  &__btn {
+    margin-top: 22rem !important;
+    width: 100%;
+  }
+  &__close {
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    top: 14rem;
+    right: 14rem;
+  }
+}
