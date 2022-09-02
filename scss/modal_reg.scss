@@ -6,6 +6,9 @@
   position: relative;
   font-size: 16rem;
   margin-bottom: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   &__wrap {
     display: grid;

@@ -108,7 +108,6 @@
     </div>
 </div>
 
-
 <div class="registration-modal">
     <div class="registration-modal__wrap">
         <div class="registration-modal__col">
@@ -127,30 +126,119 @@
         </div>
         <div class="registration-modal__col">
             <form class="enter__form" action="#">
-                <div class="enter__form-block">
-                    <div class="enter__form-text">Email</div>
+                <div class="enter__form-block error">
+                    <div class="enter__form-text">Придумайте пароль</div>
                     <div class="enter__form-flex">
-                        <input class="enter__form-input" type="text" placeholder="Email">
+                        <input class="enter__form-input" type="password" placeholder="Пароль">
                         <img class="enter__form-watch" src="./img/close.svg" alt="&#x2715">
                     </div>
                 </div>
-                <div class="enter__form-block">
-                    <div class="enter__form-text">Телефон</div>
+                <div class="enter__form-block success">
+                    <div class="enter__form-text">Повторите Пароль</div>
                     <div class="enter__form-flex">
-                        <input class="enter__form-input" type="text" placeholder="+7">
-                        <img class="enter__form-watch" src="./img/visibility.svg" alt="img">
-                        <img class="enter__form-done" src="./img/done.svg" alt="img">
-                    </div>
-                </div>
-                <div class="enter__form-block">
-                    <div class="enter__form-text">Город</div>
-                    <div class="enter__form-flex">
-                        <input class="enter__form-input" type="text" placeholder="Город">
+                        <input class="enter__form-input" type="password" placeholder="Повторите Пароль">
                         <img class="enter__form-watch" src="./img/visibility.svg" alt="img">
                         <img class="enter__form-done" src="./img/done.svg" alt="img">
                     </div>
                 </div>
                 <button class="enter__form-btn" type="submit">Продолжить</button>
+                <div class="enter__personal">
+                    Нажимая на кнопку, я соглашаюсь на обработку
+                    <br>
+                    <a href="#">персональных данных</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="registration-modal__footer">
+        У вас уже есть профиль? <a href="#">Войдите</a>
+    </div>
+</div>
+
+<div class="registration-modal">
+    <div class="registration-modal__wrap">
+        <div class="registration-modal__col">
+            <div class="registration-modal__header">
+                Зарегистрируйтесь <br>и получайте контент <br> под <span>ваши интересы</span>
+            </div>
+            <div class="registration-modal__subheader">
+                всего несколько шагов
+            </div>
+            <div class="registration-modal__progress">
+                <div class="registration-modal__progress-inner" style="width: 100%"></div>
+            </div>
+            <div class="registration-modal__step">
+                <span>4</span>/4
+            </div>
+        </div>
+        <div class="registration-modal__col">
+            <form class="enter__form" action="#">
+                <div class="enter__form-title">
+                    Выберите направления по которым хотели бы получать больше информации
+                </div>
+                <div class="enter__form-items">
+                    <div>
+                        <div class="enter__form-checkbox">
+                            <label class="container-checkbox">
+                                Гастроэнтерология
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="enter__form-checkbox">
+                            <label class="container-checkbox">
+                                Кардиология
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="enter__form-checkbox">
+                            <label class="container-checkbox">
+                                Контроль веса
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="enter__form-checkbox">
+                            <label class="container-checkbox">
+                                Опорнодвигательный аппарат
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="enter__form-checkbox">
+                            <label class="container-checkbox">
+                                Неврология
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="enter__form-checkbox">
+                            <label class="container-checkbox">
+                                Урология
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="enter__form-checkbox">
+                            <label class="container-checkbox">
+                                Эндокринология
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="enter__form-checkbox">
+                            <label class="container-checkbox">
+                                Бизнес
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button class="enter__form-btn" type="submit">Зарегистрироваться </button>
                 <div class="enter__personal">
                     Нажимая на кнопку, я соглашаюсь на обработку
                     <br>
