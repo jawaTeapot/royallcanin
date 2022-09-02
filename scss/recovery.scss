@@ -2,7 +2,7 @@
   top: -2368rem;
   left: 441rem;
   width: 458px;
-  min-height: 389px;
+  min-height: 246px;
   padding: 44rem 41rem;
   background-color: #FFFFFF;
   position: relative;
@@ -11,6 +11,9 @@
     font-size: 30rem;
     line-height: 36rem;
     color: #333333;
+    &--mail {
+      display: none;
+    }
     &--passwordRecovery {
       display: none;
     }
@@ -22,6 +25,9 @@
     line-height: 19rem;
     color: #333333;
     &--telephone {
+      display: none;
+    }
+    &--mail {
       display: none;
     }
     span {
@@ -95,6 +101,12 @@
     width: 100%;
     &--disabled {
       display: none !important;
+      &:disabled {
+        background: #ECABA9;
+      }
+    }
+    &--mail {
+      display: none !important;
     }
   }
   &__close {
@@ -137,10 +149,53 @@
       display: block;
     }
   }
+  .recovery__flex {
+    border-bottom: 2rem solid #E2001A;
+  }
   .recovery__btn {
     display: none;
     &--disabled {
+      display: block !important;
+    }
+  }
+}
+.sent {
+  .recovery__header {
+    display: none;
+    &--passwordRecovery {
       display: block;
     }
+  }
+  .recovery__text {
+    display: none;
+    &--telephone {
+      display: block;
+    }
+  }
+  .recovery__headline {
+    display: none;
+    &--sms {
+      display: block;
+    }
+  }
+}
+.mail {
+  .recovery__header {
+    display: none;
+    &--mail {
+      display: block;
+    }
+  }
+  .recovery__text {
+    display: none;
+    &--mail {
+      display: block;
+    }
+  }
+  .recovery__form {
+    display: none;
+  }
+  .recovery__btn--mail {
+    display: block !important;
   }
 }
