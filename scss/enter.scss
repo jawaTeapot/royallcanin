@@ -150,6 +150,21 @@
       text-decoration: underline;
     }
   }
+  &__form-title {
+    margin-bottom: 20rem;
+    font-weight: 700;
+    font-size: 22rem;
+    line-height: 26rem;
+  }
+  &__form-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+
+    .enter__form-checkbox {
+      margin-bottom: 16rem;
+    }
+  }
 }
 .container-checkbox {
   display: block;
