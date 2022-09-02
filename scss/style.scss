@@ -27,6 +27,7 @@ body {
 }
 .main {
   width: 100%;
+  overflow-x: hidden;
 }
 @import "header.scss";
 @import "nav.scss";
@@ -82,5 +83,28 @@ body {
   &.slick-disabled {
     opacity: 0.5;
     cursor-pointer: none;
+  }
+}
+
+.show-more-btn {
+  display: block;
+  background: #E2001A;
+  color: white;
+  border-radius: 120px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 24px;
+
+  &:hover {
+    background: #BD0016;
+  }
+
+  &:active {
+    background: #ECABA9;
   }
 }

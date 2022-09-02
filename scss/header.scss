@@ -111,6 +111,13 @@
     font-size: 16rem;
     line-height: 19rem;
     color: #FFFFFF;
+    &:hover {
+      background: #BD0016;
+    }
+
+    &:active {
+      background: #ECABA9;
+    }
   }
   &__user {
     display: none;

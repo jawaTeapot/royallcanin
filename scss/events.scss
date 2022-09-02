@@ -11,6 +11,16 @@
   }
   &__showcase {
     margin-top: 25rem;
+
+    .slick-slide {
+      opacity: 0.4;
+      transition: filter, opacity 0.3s;
+      filter: grayscale(1);
+    }
+    .slick-active {
+      opacity: 1;
+      filter: none;
+    }
   }
   &__block {
     margin-bottom: 12rem;

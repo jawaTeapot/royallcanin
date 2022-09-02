@@ -29,6 +29,13 @@
     font-size: 15rem;
     line-height: 18rem;
     color: #FFFFFF;
+    &:hover {
+      background: #BD0016;
+    }
+
+    &:active {
+      background: #ECABA9;
+    }
     &:last-child {
       margin-right: 0;
       padding: 15rem 18rem;
@@ -101,5 +108,12 @@
     font-size: 15rem;
     line-height: 18rem;
     color: #FFFFFF;
+    &:hover {
+      background: #BD0016;
+    }
+
+    &:active {
+      background: #ECABA9;
+    }
   }
 }

@@ -60,6 +60,13 @@
     font-size: 9rem;
     line-height: 12rem;
     color: #FFFFFF;
+    &:hover {
+      background: #BD0016;
+    }
+
+    &:active {
+      background: #ECABA9;
+    }
     &-img {
       margin-right: 3rem;
       width: 16rem;

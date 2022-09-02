@@ -145,6 +145,13 @@
       color: #FFFFFF;
       display: flex;
       align-items: center;
+      &:hover {
+        background: #BD0016;
+      }
+
+      &:active {
+        background: #ECABA9;
+      }
     }
     &-bottomImg{
       margin-right: 4rem;

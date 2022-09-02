@@ -5,32 +5,56 @@ $(document).ready(function(){
     });
 
     const $services = $('#services');
-    const $slideCount = $('#slide-count');
 
-    $services.on('init reInit afterChange', function(event, slick, currentSlide){
-        const i = (currentSlide ? currentSlide : 0) + 1;
-        $slideCount.text(i + '/' + slick.slideCount);
-    });
+    if ($services.length) {
+        const $slideCount = $('#slide-count');
 
-    $services.slick({
-        infinite: false,
-        prevArrow: $('#prev-arrow'),
-        nextArrow: $('#next-arrow')
-    });
+        $services.on('init reInit afterChange', function(event, slick, currentSlide){
+            const i = (currentSlide ? currentSlide : 0) + 1;
+            $slideCount.text(i + '/' + slick.slideCount);
+        });
+
+        $services.slick({
+            infinite: false,
+            slidesToShow: 1.1,
+            prevArrow: $('#prev-arrow'),
+            nextArrow: $('#next-arrow')
+        });
+    }
 
     const $gifts = $('#gifts');
-    const $countSlide = $('#count-slide');
 
-    $gifts.on('init reInit afterChange', function(event, slick, currentSlide){
-        const i = (currentSlide ? currentSlide : 0) + 1;
-        $countSlide.text(i + '/' + slick.slideCount);
-    });
+    if ($gifts.length) {
+        const $countSlide = $('#count-slide');
 
-    $gifts.slick({
-        infinite: false,
-        prevArrow: $('#prev-arrow'),
-        nextArrow: $('#next-arrow')
-    });
+        $gifts.on('init reInit afterChange', function(event, slick, currentSlide){
+            const i = (currentSlide ? currentSlide : 0) + 1;
+            $countSlide.text(i + '/' + slick.slideCount);
+        });
+
+        $gifts.slick({
+            infinite: false,
+            prevArrow: $('#prev-arrow'),
+            nextArrow: $('#next-arrow')
+        });
+    }
+
+    const $events = $('#events');
+
+    if ($events.length) {
+        const $countSlide = $('#slide-count');
+
+        $events.slick({
+            infinite: false,
+            slidesToShow: 1.5,
+            prevArrow: $('#prev-arrow'),
+            nextArrow: $('#next-arrow')
+        });
+        $events.on('init reInit afterChange', function(event, slick, currentSlide){
+            const i = (currentSlide ? currentSlide : 0) + 1;
+            $countSlide.text(i + '/' + slick.slideCount);
+        });
+    }
 
     $('#tabs .store__top-tab').on('click', function () {
         $('#tabs .store__top-tab').removeClass('active');
@@ -39,6 +63,7 @@ $(document).ready(function(){
         $('.' + $(this).data().tab).show();
         setTimeout(function () {
             $gifts.slick('refresh');
-        }, 100);
-    })
+            $events.slick('refresh');
+        }, 0);
+    });
 });

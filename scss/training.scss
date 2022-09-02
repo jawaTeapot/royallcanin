@@ -1,5 +1,20 @@
 .training {
   margin-top: 44rem;
+  &__heading {
+    font-weight: 700;
+    font-size: 30rem;
+    line-height: 36rem;
+    color: #333333;
+    margin-bottom: 13rem;
+    span {
+      color: #E2001A;
+    }
+  }
+
+  &--favorites {
+    margin-top: 109rem;
+  }
+
   &__showcase {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -13,6 +13,20 @@
     display: flex;
     margin-top: 24rem;
     max-width: 872rem;
+
+    .slick-slider .slick-slide {
+      padding: 0 15px;
+    }
+
+    .slick-slide {
+      opacity: 0.4;
+      transition: filter, opacity 0.3s;
+      filter: grayscale(1);
+    }
+    .slick-active {
+      opacity: 1;
+      filter: none;
+    }
   }
   &__card {
     width: 870rem;
