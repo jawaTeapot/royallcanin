@@ -2,7 +2,7 @@
   top: -2368rem;
   left: 441rem;
   width: 458px;
-  height: 389px;
+  min-height: 389px;
   padding: 44rem 41rem;
   background-color: #FFFFFF;
   position: relative;
@@ -11,6 +11,9 @@
     font-size: 30rem;
     line-height: 36rem;
     color: #333333;
+    &--passwordRecovery {
+      display: none;
+    }
   }
   &__text {
     margin-top: 9rem;
@@ -18,9 +21,18 @@
     font-size: 16rem;
     line-height: 19rem;
     color: #333333;
+    &--telephone {
+      display: none;
+    }
+    span {
+      font-weight: 700;
+    }
   }
   &__form {
     margin-top: 51rem;
+  }
+  &__block {
+    height: 60rem;
   }
   &__headline {
     font-weight: 700;
@@ -28,6 +40,15 @@
     line-height: 12rem;
     text-transform: uppercase;
     color: #333333;
+    &--telephone {
+      display: none;
+    }
+    &--email {
+      display: none;
+    }
+    &--sms {
+      display: none;
+    }
   }
   &__flex {
     margin-top: 2rem;
@@ -52,8 +73,17 @@
     width: 24rem;
     height: 24rem;
   }
+  &__error {
+    display: none;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-weight: 400;
+    font-size: 10rem;
+    line-height: 12rem;
+    color: #B13F48;
+  }
   &__span {
-    margin-top: 29rem;
+    margin-top: 19rem;
     font-weight: 300;
     font-size: 14rem;
     line-height: 17rem;
@@ -61,8 +91,11 @@
     text-align: right;
   }
   &__btn {
-    margin-top: 22rem !important;
+    margin-top: 23rem !important;
     width: 100%;
+    &--disabled {
+      display: none !important;
+    }
   }
   &__close {
     width: 30rem;
@@ -70,5 +103,44 @@
     position: absolute;
     top: 14rem;
     right: 14rem;
+  }
+}
+.error {
+  .recovery__headline{
+    display: none;
+    &--email {
+      display: block;
+    }
+  }
+  .recovery__error {
+    display: block;
+  }
+}
+.telephone {
+  .recovery__headline{
+    display: none;
+    &--telephone {
+      display: block;
+    }
+  }
+}
+.passwordRecovery {
+  .recovery__header {
+    display: none;
+    &--passwordRecovery {
+      display: block;
+    }
+  }
+  .recovery__text {
+    display: none;
+    &--telephone {
+      display: block;
+    }
+  }
+  .recovery__btn {
+    display: none;
+    &--disabled {
+      display: block;
+    }
   }
 }
