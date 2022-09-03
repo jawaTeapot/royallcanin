@@ -44,6 +44,34 @@ $transition-duration: 0.3s;
   flex-direction: row;
 }
 
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 5rem;
+    height: 15rem;
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+  &::-webkit-resizer {
+    display: none;
+  }
+  &::-webkit-scrollbar-button:start {
+    display: none;
+  }
+  &::-webkit-scrollbar-button:end {
+    display: none;
+  }
+  &::-webkit-scrollbar-thumb:vertical {
+    min-height: 20rem;
+    background: #E2001A;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #F6F6F6;
+    border-radius: 10px;
+  }
+}
+
 // ----------------------------------------------
 // INCLUDES
 

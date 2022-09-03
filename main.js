@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+    $('.custom-select').select2({
+        minimumResultsForSearch: -1
+    });
+
     $('#registration').slick({
         dots: true,
     });

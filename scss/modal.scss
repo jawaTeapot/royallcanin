@@ -38,7 +38,9 @@
   }
   &__info {
     margin-top: 57rem;
-    //overflow-y: auto;
+    max-height: 196rem;
+    overflow-y: auto;
+    @include scrollbar();
   }
   &__msg {
     width: 560rem;
