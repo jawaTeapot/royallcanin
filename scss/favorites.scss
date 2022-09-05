@@ -1,7 +1,17 @@
 .favorites {
-
+  .events {
+    margin-top: 39rem;
+    &__showcase {
+      margin-top: 14rem;
+    }
+  }
+  .articles {
+    margin-top: 65rem;
+    &__showcase {
+      margin-top: 15rem;
+    }
+  }
 }
-
 .tab-favorites {
   display: none;
 }

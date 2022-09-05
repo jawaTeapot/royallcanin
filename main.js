@@ -4,10 +4,6 @@ $(document).ready(function(){
         minimumResultsForSearch: -1
     });
 
-    $('#registration').slick({
-        dots: true,
-    });
-
     const $services = $('#services');
 
     if ($services.length) {
