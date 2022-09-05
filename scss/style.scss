@@ -21,10 +21,13 @@ body {
 }
 .wrapper {
   display: flex;
+  justify-content: flex-end;
 }
 .main {
-  width: 100%;
-  overflow-x: hidden;
+  margin-top: 113rem;
+  width: 877rem;
+  //width: 100%;
+  //overflow-x: hidden;
 }
 @import "header.scss";
 @import "nav.scss";

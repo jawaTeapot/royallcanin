@@ -1,7 +1,9 @@
 .nav {
   margin-top: 43rem;
-  margin-right: 21rem;
-  width: 372rem;
+  width: 276rem;
+  position: fixed;
+  top: 113rem;
+  left: 135rem;
   &__item {
     padding-left: 4rem;
     padding-bottom: 19rem;

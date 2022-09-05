@@ -1,8 +1,11 @@
 .header {
-    border-bottom: 1rem solid #D7D7D7;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1rem solid #D7D7D7;
+  z-index: 1;
   &__top {
     background-color: #333333;
-    &-flex {
+    &--flex {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -61,18 +64,21 @@
     }
   }
   &__bottom {
-    padding: 16rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #F6F6F6;
+    &--flex {
+      padding: 16rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     &-block {
       display: flex;
       align-items: center;
     }
   }
   &__logo {
-    width: 270px;
-    height: 32px;
+    width: 270rem;
+    height: 32rem;
   }
   &__search {
     display: flex;
