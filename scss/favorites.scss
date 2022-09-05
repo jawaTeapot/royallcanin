@@ -10,6 +10,13 @@
     &__showcase {
       margin-top: 15rem;
     }
+    &__btn--favorites {
+      display: none;
+    }
+  }
+
+  .training__card--favorites {
+    display: none;
   }
 }
 .tab-favorites {

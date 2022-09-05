@@ -10,11 +10,6 @@
       color: #E2001A;
     }
   }
-
-  &--favorites {
-    margin-top: 109rem;
-  }
-
   &__showcase {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -101,6 +96,6 @@
     }
   }
   &--favorites {
-    margin-top: 60rem;
+    margin-top: 109rem;
   }
 }
