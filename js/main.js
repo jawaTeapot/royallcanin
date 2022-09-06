@@ -88,7 +88,6 @@ $(document).ready(function(){
         }
 
         const contentHeight = $body.height() - $footer.height();
-        console.log($window.scrollTop() + $nav.height() + (194 * delta), (contentHeight - (72 * delta)))
 
         if ($window.scrollTop() + $nav.height() + (194 * delta) >= (contentHeight - (131 * delta))) {
             $nav.addClass('nav-stop');
