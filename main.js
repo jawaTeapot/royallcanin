@@ -66,4 +66,36 @@ $(document).ready(function(){
             $events.slick('refresh');
         }, 0);
     });
+
+
+    // Фиксированные шапки
+    const $headerTop = $('#header-top');
+    const $nav = $('#nav');
+    const $window = $(window);
+    const $body = $(document);
+    const $footer = $('#footer');
+    const $header = $('#header');
+
+    $window.on('scroll', headerHide);
+
+    function headerHide() {
+
+        const delta = document.documentElement.clientWidth / 1440;
+        if ($window.scrollTop() > 150) {
+            $headerTop.hide()
+        } else {
+            $headerTop.show();
+        }
+
+        const contentHeight = $body.height() - $footer.height();
+        console.log($window.scrollTop() + $nav.height() + (194 * delta), (contentHeight - (72 * delta)))
+
+        if ($window.scrollTop() + $nav.height() + (194 * delta) >= (contentHeight - (131 * delta))) {
+            $nav.addClass('nav-stop');
+        } else {
+            $nav.removeClass('nav-stop');
+        }
+    }
+
+    headerHide();
 });
