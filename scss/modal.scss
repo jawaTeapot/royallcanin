@@ -1,6 +1,7 @@
 .modal {
   background-color: #666666;
   padding: 50rem;
+  padding-top: 150px;
 }
 .notification {
   padding: 48rem 34rem 34rem;
@@ -38,7 +39,7 @@
   }
   &__info {
     margin-top: 57rem;
-    max-height: 196rem;
+    max-height: 216rem;
     overflow-y: auto;
     @include scrollbar();
   }
@@ -92,6 +93,7 @@
     position: absolute;
     top: 14rem;
     right: 14rem;
+    cursor: pointer;
   }
 }
 .lcSettings {
@@ -192,5 +194,6 @@
     position: absolute;
     top: 14rem;
     right: 7rem;
+    cursor: pointer;
   }
 }

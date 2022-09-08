@@ -2,8 +2,14 @@
   //margin-top: 43rem;
   width: 276rem;
   position: fixed;
-  top: 113rem;
+  top: 156rem;
   left: 135rem;
+  &.nav-stop {
+    position: absolute !important;
+    left: 0 !important;
+    top: auto !important;
+    bottom: 50rem !important;
+  }
   &__item {
     padding-left: 4rem;
     padding-bottom: 19rem;
@@ -18,17 +24,26 @@
     }
     &:last-child {
       border-bottom: none;
+      padding-bottom: 0;
     }
     &-block {
       margin-top: 11rem;
       margin-bottom: 5rem;
       display: flex;
       align-items: center;
+      padding: 4rem;
+      justify-content: space-between;
       &:last-child {
         margin-bottom: 0;
       }
       &:hover {
         background-color: #EBEBEB;
+      }
+      &._active {
+        background-color: #EBEBEB;
+        .nav__link {
+          font-weight: 700;
+        }
       }
     }
     &-img {
@@ -52,7 +67,6 @@
   }
   &__icon {
     display: none;
-    margin-left: 37rem;
     padding: 2rem 5rem;
     align-items: center;
     justify-content: center;

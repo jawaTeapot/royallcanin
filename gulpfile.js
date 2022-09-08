@@ -14,6 +14,11 @@ function buildImages() {
         .pipe(gulp.dest('./dist/img'));
 }
 
+function buildJs() {
+    return gulp.src('./js/**/*.*')
+        .pipe(gulp.dest('./dist/js'));
+}
+
 function buildFonts() {
     return gulp.src('./fonts/**/*.*')
         .pipe(gulp.dest('./dist/fonts'));
@@ -31,5 +36,5 @@ function buildEjs() {
 
 exports.default = buildStyles;
 exports.watch = function() {
-    gulp.watch(['./scss/**/*.scss', './templates/**/*.ejs', './img/**/*.*'], gulp.series(buildStyles, buildEjs, buildImages, buildFonts));
+    gulp.watch(['./scss/**/*.scss', './templates/**/*.ejs', './img/**/*.*', './js/**/*.*'], gulp.series(buildStyles, buildEjs, buildImages, buildFonts, buildJs));
 };
