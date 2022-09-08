@@ -29,6 +29,7 @@
     padding-top: 10rem;
   }
   &__block {
+    margin-bottom: 28rem;
     padding: 10rem 28rem;
     background: #FFFFFF;
     box-shadow: 0 2rem 34rem -5rem rgba(0, 0, 0, 0.14);
@@ -158,6 +159,7 @@
     line-height: 26rem;
   }
   &__form-items {
+    margin-bottom: 50rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 22px;
