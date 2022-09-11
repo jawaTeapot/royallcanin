@@ -1,10 +1,11 @@
 {
-  "name": "royallcanin",
+  "name": "vetacademia.royalcanin.ru-new-markupnpm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp watch"
+    "dev": "gulp watch",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,179 @@
+.product {
+  width: 874rem;
+  min-height: 475rem;
+  padding: 11rem 128rem 24rem 24rem;
+  background-color: #FFFFFF;
+  display: flex;
+  position: relative;
+  ///////////////
+  margin-bottom: 20rem;
+  //////////////
+  &__left {
+    width: 253rem;
+    margin-right: 44rem;
+    &-img {
+      margin: 0 auto;
+      width: 173rem;
+      height: 224rem;
+    }
+    &-heading {
+      font-weight: 700;
+      font-size: 30rem;
+      line-height: 36rem;
+      color: #333333;
+    }
+    &-text {
+      margin-top: 4rem;
+      font-weight: 400;
+      font-size: 16rem;
+      line-height: 19rem;
+      color: #212121;
+    }
+    &-id {
+      margin-top: 4rem;
+      font-weight: 400;
+      font-size: 10rem;
+      line-height: 12rem;
+      text-transform: uppercase;
+      color: #666666;
+    }
+    &-btn {
+      margin-top: 22rem;
+      width: 100%;
+      height: 48rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      outline: none;
+      background-color: #E2001A;
+      border-radius: 120rem;
+      font-weight: 700;
+      font-size: 16rem;
+      line-height: 19rem;
+      color: #FFFFFF;
+      &--img {
+        margin-right: 9rem;
+        width: 16rem;
+        height: 16rem;
+      }
+    }
+  }
+  &__right {
+    margin-top: 9rem;
+    width: 441rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__item {
+    &-heading {
+      font-weight: 700;
+      font-size: 20rem;
+      line-height: 26rem;
+      color: #333333;
+    }
+    &-showcase {
+      margin-top: 12rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 22rem 12rem;
+      &--img {
+        margin-left: 2rem;
+        width: 200rem;
+        height: 324rem;
+      }
+    }
+    &-card {
+      padding: 12rem 4rem;
+      width: 127rem;
+      background-color: #F6F6F6;
+      border-radius: 10rem;
+    }
+    &-cardImg {
+      width: 48rem;
+      height: 48rem;
+    }
+    &-cardText {
+      margin-top: 12rem;
+      font-weight: 400;
+      font-size: 14rem;
+      line-height: 17rem;
+      color: #000000;
+    }
+    &-cardTextMini {
+      margin-top: 12rem;
+      font-weight: 400;
+      font-size: 10rem;
+      line-height: 12rem;
+      color: #999999;
+    }
+    &-info {
+      margin-top: 12rem;
+      width: fit-content;
+      padding: 4rem 8rem;
+      background-color: #666666;
+      border-radius: 120rem;
+      font-weight: 700;
+      font-size: 14rem;
+      line-height: 17rem;
+      color: #FFFFFF;
+    }
+    &-list {
+      margin-top: 4rem;
+      padding-left: 22rem;
+      list-style-type : disc;
+    }
+    &-li {
+      margin-top: 12rem;
+      font-weight: 400;
+      font-size: 14rem;
+      line-height: 17rem;
+      color: #212121;
+      &:before {
+        content: url("");
+      }
+    }
+  }
+  &__table {
+    margin-top: 16rem;
+    width: 100%;
+    padding: 12rem 5rem;
+    background-color: #F6F6F6;
+    border-radius: 10rem;
+    &-block {
+      padding-bottom: 8rem;
+      margin-bottom: 8rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1rem solid #D7D7D7;
+      &:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+      }
+    }
+    &-blockLeft {
+      font-weight: 400;
+      font-size: 14rem;
+      line-height: 17rem;
+      color: #212121;
+    }
+    &-blockRight {
+      font-weight: 700;
+      font-size: 16rem;
+      line-height: 19rem;
+      color: #212121;
+    }
+  }
+  &__close {
+    position: absolute;
+    top: 20rem;
+    right: 20rem;
+    width: 17rem;
+    height: 17rem;
+  }
+  .custom-nav {
+    justify-content: flex-start;
+  }
+}

@@ -39,6 +39,23 @@ $(document).ready(function(){
         });
     }
 
+    const $product = $('#product');
+
+    if ($product.length) {
+        const $countSlide = $('#product-count-slide');
+
+        $product.slick({
+            infinite: false,
+            prevArrow: $('#product-prev-arrow'),
+            nextArrow: $('#product-next-arrow')
+        });
+
+        $product.on('init reInit afterChange', function(event, slick, currentSlide){
+            const i = (currentSlide ? currentSlide : 0) + 1;
+            $countSlide.text(i + '/' + slick.slideCount);
+        });
+    }
+
     const $events = $('#events');
 
     if ($events.length) {

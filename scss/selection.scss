@@ -1,0 +1,121 @@
+.selection {
+  width: 872rem;
+  height: 414rem;
+  padding: 16rem 24rem;
+  background-color: #FFFFFF;
+  position: relative;
+  background-image: url("../img/image94.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 425rem 386rem;
+  //////////////
+  margin-bottom: 20rem;
+  /////////////
+  &__headline {
+    font-weight: 700;
+    font-size: 14rem;
+    line-height: 17rem;
+    color: #333333;
+    span {
+      color: #E2001A;
+    }
+  }
+  &__heading {
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: 22rem;
+    line-height: 26rem;
+    color: #333333;
+  }
+  &__form {
+    margin-top: 30rem;
+    &-left {
+      width: 367rem;
+    }
+    &-flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-block {
+      width: 370rem;
+      margin-bottom: 28rem;
+      padding-bottom: 6rem;
+      border-bottom: 1rem solid #333333;
+      &--section {
+        width: 164rem;
+      }
+    }
+    &-text {
+      margin-bottom: 6rem;
+      font-weight: 700;
+      font-size: 10rem;
+      line-height: 12rem;
+      text-transform: uppercase;
+      color: #333333;
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+      &--section {
+        width: 164rem;
+      }
+    }
+    &-input {
+      width: 100%;
+      border: none;
+      outline: none;
+      font-weight: 400;
+      font-size: 16rem;
+      line-height: 19rem;
+      color: #363A40;
+      &::placeholder {
+        color: #D7D7D7;
+      }
+    }
+    &-img {
+      width: 24rem;
+      height: 24rem;
+    }
+    &-btn {
+      margin-top: 45rem;
+      width: 258rem;
+      height: 48rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #E2001A;
+      border-radius: 120rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15rem;
+      line-height: 19rem;
+      color: #FFFFFF;
+    }
+  }
+  &__btn {
+    width: 138rem;
+    height: 28rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1rem solid #333333;
+    outline: none;
+    border-radius: 30rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 12rem;
+    color: #333333;
+    position: absolute;
+    top: 24rem;
+    right: 24rem;
+    &-img {
+      width: 16rem;
+      height: 16rem;
+    }
+  }
+}

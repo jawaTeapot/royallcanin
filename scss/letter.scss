@@ -1,0 +1,39 @@
+.letter {
+  padding-top: 4rem;
+  padding-bottom: 83rem;
+  &__promo {
+    margin-bottom: 28rem;
+    display: flex;
+    &-block {
+      padding-top: 10rem;
+      display: flex;
+    }
+  }
+  &__heading {
+    font-weight: 700;
+    font-size: 36rem;
+    line-height: 43rem;
+    color: #333333;
+    span {
+      color: #E2001A;
+    }
+  }
+  &__img {
+    margin-right: 14rem;
+    width: 48rem;
+    height: 48rem;
+  }
+  &__headline {
+    font-weight: 700;
+    font-size: 14rem;
+    line-height: 17rem;
+    color: #333333;
+  }
+  &__text {
+    margin-top: 6rem;
+    font-weight: 400;
+    font-size: 12rem;
+    line-height: 14rem;
+    color: #313131;
+  }
+}

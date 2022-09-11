@@ -35,6 +35,19 @@ function buildEjs() {
 }
 
 exports.default = buildStyles;
+
+function build() {
+  return gulp.series(
+    buildStyles,
+    buildEjs,
+    buildImages,
+    buildFonts,
+    buildJs
+  )
+}
+
+exports.build = build();
+
 exports.watch = function() {
     gulp.watch(['./scss/**/*.scss', './templates/**/*.ejs', './img/**/*.*', './js/**/*.*'], gulp.series(buildStyles, buildEjs, buildImages, buildFonts, buildJs));
 };

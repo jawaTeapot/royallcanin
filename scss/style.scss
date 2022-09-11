@@ -27,8 +27,6 @@ body {
 .main {
   margin-top: 113rem;
   width: 877rem;
-  //width: 100%;
-  //overflow-x: hidden;
 }
 @import "header.scss";
 @import "nav.scss";
@@ -56,12 +54,22 @@ body {
 @import "modal.scss";
 @import "modal_reg.scss";
 @import "recovery.scss";
+@import "letter.scss";
+@import "email.scss";
+@import "selection.scss";
+@import "select.scss";
+@import "product.scss";
+@import "send.scss";
 
 .custom-nav {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 18rem;
+  &-img {
+    width: 22rem;
+    height: 22rem;
+  }
 }
 
 .prev-arrow {
