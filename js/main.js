@@ -115,3 +115,16 @@ $(document).ready(function(){
 
     headerHide();
 });
+
+/////////// Калеендарь //////////
+
+mobiscroll.setOptions({
+    locale: mobiscroll.localeRu,
+    theme: 'ios',
+    themeVariant: 'light'
+});
+$('#inline-picker').mobiscroll().datepicker({
+    controls: ['calendar'],
+    display: 'inline',
+    touchUi: false
+});

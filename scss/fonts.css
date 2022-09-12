@@ -17,3 +17,12 @@
     font-weight: 700;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Mobiscroll';
+    src: local('Mobiscroll'), local('Mobiscroll'),
+    url('../fonts/icons_mobiscroll.woff') format('woff'),
+    url('../fonts/icons_mobiscroll.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
