@@ -139,10 +139,11 @@ body {
   line-height: 19rem;
 }
 .select2-dropdown {
-  padding: 12rem 19rem;
+  padding: 10rem;
 }
-.select2-results {
-  min-height: 151rem;
+.select2-results__options {
+  padding: 2rem !important;
+  max-height: 151rem;
   overflow-y: scroll;
   @include scrollbar();
 }
