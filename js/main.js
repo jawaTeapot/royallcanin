@@ -1,8 +1,13 @@
 $(document).ready(function(){
 
-    $('.custom-select').select2({
-        minimumResultsForSearch: -1
-    });
+    $('.custom-select').each(function() {
+        const placeholder = $(this).data().placeholder;
+        console.log(placeholder, )
+        $(this).select2({
+            minimumResultsForSearch: -1,
+            allowClear: true
+        });
+    })
 
     const $services = $('#services');
 
@@ -117,20 +122,22 @@ $(document).ready(function(){
 });
 
 /////////// Калеендарь //////////
+if (window.mobiscroll) {
+    mobiscroll.setOptions({
+        locale: mobiscroll.localeRu,
+        theme: 'ios',
+        themeVariant: 'light'
+    });
+    $('#inline-picker').mobiscroll().datepicker({
+        controls: ['calendar'],
+        display: 'inline',
+        touchUi: false,
+        marked: [
+            {
+                date: new Date(2022, 8, 2),
+                color: '#46c4f3'
+            }
+        ]
+    });
 
-mobiscroll.setOptions({
-    locale: mobiscroll.localeRu,
-    theme: 'ios',
-    themeVariant: 'light'
-});
-$('#inline-picker').mobiscroll().datepicker({
-    controls: ['calendar'],
-    display: 'inline',
-    touchUi: false,
-    marked: [
-        {
-            date: new Date(2022, 8, 2),
-            color: '#46c4f3'
-        }
-    ]
-});
+}
