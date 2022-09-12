@@ -5,7 +5,6 @@ $(document).ready(function(){
         console.log(placeholder, )
         $(this).select2({
             minimumResultsForSearch: -1,
-            allowClear: true
         });
     })
 

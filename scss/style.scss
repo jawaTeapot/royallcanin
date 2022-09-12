@@ -57,7 +57,7 @@ body {
 @import "recovery.scss";
 @import "letter.scss";
 @import "email.scss";
-@import "selection.scss";
+@import "letterSelection.scss";
 @import "select.scss";
 @import "product.scss";
 @import "send.scss";
@@ -122,8 +122,15 @@ body {
 
 .custom-select {
   width: 100%;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 19rem;
+  color: #333333;
+}
+.select2-selection__rendered {
   font-size: 16rem;
 }
+
 .select2-results__option {
   font-size: 16rem;
   font-weight: 400;
@@ -133,7 +140,7 @@ body {
   padding: 12rem 19rem;
 }
 .select2-results {
-  height: 151rem;
+  min-height: 151rem;
   overflow-y: scroll;
   @include scrollbar();
 }
@@ -187,9 +194,4 @@ body {
 .mbsc-ios.mbsc-selected .mbsc-calendar-cell-text {
   background: #ECABA9 !important;
   border-color: #ECABA9 !important;
-}
-
-
-.select2-selection__rendered {
-  font-size: 16rem;
 }

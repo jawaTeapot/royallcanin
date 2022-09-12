@@ -12,6 +12,7 @@
     width: 253rem;
     margin-right: 44rem;
     &-img {
+      display: block;
       margin: 0 auto;
       width: 173rem;
       height: 224rem;
@@ -109,6 +110,7 @@
       color: #999999;
     }
     &-info {
+      margin-left: 2rem;
       margin-top: 12rem;
       width: fit-content;
       padding: 4rem 8rem;

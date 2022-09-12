@@ -1,4 +1,4 @@
-.letter-selection {
+.letterSelection {
   width: 872rem;
   height: 414rem;
   padding: 16rem 24rem;
@@ -39,9 +39,8 @@
     }
     &-block {
       width: 370rem;
+      height: 65rem;
       margin-bottom: 28rem;
-      padding-bottom: 6rem;
-      border-bottom: 1rem solid #333333;
       &--section {
         width: 164rem;
       }
@@ -53,29 +52,40 @@
       line-height: 12rem;
       text-transform: uppercase;
       color: #333333;
+      &--done {
+        display: none;
+        font-weight: 400;
+        font-size: 10rem;
+        line-height: 12rem;
+        color: #008900;
+      }
     }
     &-item {
-      display: flex;
-      align-items: center;
+      padding-bottom: 6rem;
+      border-bottom: 1rem solid #333333;
+      position: relative;
       &--section {
         width: 164rem;
       }
-    }
-    &-input {
-      width: 100%;
-      border: none;
-      outline: none;
-      font-weight: 400;
-      font-size: 16rem;
-      line-height: 19rem;
-      color: #363A40;
-      &::placeholder {
-        color: #D7D7D7;
+      &--done {
+        .select2-selection__arrow {
+          display: none;
+        }
+        .letterSelection__form-img {
+          display: block;
+        }
+        .letterSelection__form-text--done {
+          display: block;
+        }
       }
     }
     &-img {
+      position: absolute;
       width: 24rem;
       height: 24rem;
+      top: 0;
+      right: 0;
+      display: none;
     }
     &-btn {
       margin-top: 45rem;
