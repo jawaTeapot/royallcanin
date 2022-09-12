@@ -133,8 +133,20 @@ if (window.mobiscroll) {
         touchUi: false,
         marked: [
             {
-                date: new Date(2022, 8, 2),
-                color: '#46c4f3'
+                date: new Date(2022, 8, 21),
+                color: '#6FA7AC'
+            },
+            {
+                date: new Date(2022, 8, 30),
+                color: '#6FA7AC'
+            },
+            {
+                date: new Date(2022, 8, 21),
+                color: '#E2001A'
+            },
+            {
+                date: new Date(2022, 8, 16),
+                color: '#E2001A'
             }
         ]
     });
