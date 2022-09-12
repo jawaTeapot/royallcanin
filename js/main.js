@@ -126,5 +126,11 @@ mobiscroll.setOptions({
 $('#inline-picker').mobiscroll().datepicker({
     controls: ['calendar'],
     display: 'inline',
-    touchUi: false
+    touchUi: false,
+    marked: [
+        {
+            date: new Date(2022, 8, 2),
+            color: '#46c4f3'
+        }
+    ]
 });

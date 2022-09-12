@@ -154,3 +154,37 @@ body {
 .select2-container--open .select2-dropdown {
   top: 9rem !important;
 }
+
+.test-checkbox {
+  font-size: 16rem;
+}
+
+.mbsc-calendar-cell {
+  div {
+    display: none !important;
+  }
+
+  .mbsc-calendar-cell-inner {
+    display: block !important;
+
+    div {
+      display: block !important;
+    }
+
+    .mbsc-calendar-month-name {
+      display: none !important;
+    }
+
+    .mbsc-calendar-marks div {
+      display: inline-block !important;
+    }
+  }
+}
+.mbsc-calendar-button {
+  color: #232120 !important;
+}
+
+.mbsc-ios.mbsc-selected .mbsc-calendar-cell-text {
+  background: #ECABA9 !important;
+  border-color: #ECABA9 !important;
+}
