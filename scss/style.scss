@@ -167,14 +167,23 @@ body {
 
 ///////// calendar /////////
 
-.mbsc-ios.mbsc-datepicker .mbsc-hover .mbsc-calendar-day-text {
-  font-weight: 400;
-  font-size: 14rem;
-  line-height: 14rem;
-  margin: 0;
-  width: 16rem;
-  height: 16rem;
+.mbsc-datepicker {
+  max-height: 260rem;
 }
+
+.mbsc-ios.mbsc-calendar-controls {
+  padding: 0 !important;
+}
+
+.mbsc-datepicker .mbsc-calendar-slide {
+  padding: 0 !important;
+}
+
+.mbsc-calendar {
+  font-family: 'DIN Pro', sans-serif !important;
+  padding-bottom: 0 !important;
+}
+
 .mbsc-calendar-cell {
   div {
     display: none !important;
@@ -196,81 +205,163 @@ body {
     }
   }
 }
+
+.mbsc-ios.mbsc-calendar-today {
+  color: #6FA7AC;
+}
+
+.mbsc-ios.mbsc-datepicker-inline {
+  border-top: none;
+  border-bottom: none;
+}
+
 .mbsc-calendar-button {
   color: #232120 !important;
+  font-weight: 700;
+  font-size: 14rem !important;
 }
+
+.mbsc-calendar-title {
+  font-size: 14rem !important;
+  padding: 0 !important;
+}
+
+.mbsc-ios.mbsc-button {
+  padding: 0 !important;
+}
+
+.mbsc-calendar-header {
+  .mbsc-calendar-month {
+    margin-right: 5rem;
+  }
+}
+
+.mbsc-ios.mbsc-calendar-week-day {
+  font-weight: 700;
+  font-size: 10rem;
+  line-height: 120%;
+}
+
+.mbsc-calendar-day {
+  font-weight: 400;
+  font-size: 12rem !important;
+  line-height: 120%;
+}
+
+.mbsc-ios.mbsc-calendar-day-marked {
+  padding-bottom: 0;
+}
+
 .mbsc-ios.mbsc-selected .mbsc-calendar-cell-text {
   background: #ECABA9 !important;
   border-color: #ECABA9 !important;
 }
-.mbsc-ios.mbsc-datepicker-inline {
-  border-top: none;
-  border-bottom: none;
-  margin-top: 0;
-  margin-bottom: 0;
+
+.mbsc-calendar-cell-inner {
+  padding: 0 !important;
 }
-.mbsc-datepicker-inline {
-  height: auto;
+
+.mbsc-calendar-cell .mbsc-calendar-year-inner div {
+  font-size: 12rem !important;
 }
-.mbsc-datepicker .mbsc-calendar {
-  padding-bottom: 0;
+
+
+.mbsc-calendar-cell .mbsc-calendar-month-inner div {
+  font-size: 12rem !important;
 }
-.mbsc-ios.mbsc-calendar-controls {
-  padding: 0;
-}
-.mbsc-ios.mbsc-button {
-  padding: 0;
-}
-.mbsc-ios.mbsc-icon-button {
-  padding: 0;
-}
-.mbsc-calendar-title {
-  font-weight: 700;
-  font-size: 12rem;
-  line-height: 14rem;
-  color: #232120;
-  padding: 0;
-}
-.mbsc-calendar-month, .mbsc-calendar-year {
-  margin-right: 5rem;
-}
-.mbsc-datepicker .mbsc-calendar-slide {
-  padding: 0;
-}
-.mbsc-calendar-day-inner {
-  border: none;
-}
-.mbsc-ios.mbsc-calendar-day-text {
-  width: 16rem;
-  height: 16rem;
-  margin: 1rem;
-  font-weight: 400;
-  font-size: 14rem;
-  line-height: 14rem;
-  border: none;
-}
-.mbsc-ios.mbsc-datepicker .mbsc-selected .mbsc-calendar-day-text {
-  width: 16rem;
-  height: 16rem;
-  margin: 0;
-  font-weight: 400;
-  font-size: 12rem;
-  line-height: 14rem;
-  color: #333333;
-}
-.mbsc-ios.mbsc-calendar-week-day {
-  margin-bottom: 2rem;
-  font-weight: 700;
-  font-size: 12rem;
-  line-height: 12rem;
-  height: 12rem;
-}
-.mbsc-ios.mbsc-calendar-cell {
-  border-top-width: 0;
-}
-.mbsc-calendar-marks {
-  right: 9rem;
-}
+
+//.mbsc-calendar-title-wrapper {
+//  .mbsc-button {
+//    color: #232120 !important;
+//    font-weight: 700;
+//    font-size: 14rem;
+//  }
+//}
+
+//.mbsc-ios.mbsc-datepicker .mbsc-hover .mbsc-calendar-day-text {
+//  font-weight: 400;
+//  font-size: 14rem;
+//  line-height: 14rem;
+//  margin: 0;
+//  width: 16rem;
+//  height: 16rem;
+//}
+
+//.mbsc-calendar-button {
+//  color: #232120 !important;
+//}
+//.mbsc-ios.mbsc-selected .mbsc-calendar-cell-text {
+//  background: #ECABA9 !important;
+//  border-color: #ECABA9 !important;
+//}
+//.mbsc-ios.mbsc-datepicker-inline {
+//  border-top: none;
+//  border-bottom: none;
+//  margin-top: 0;
+//  margin-bottom: 0;
+//}
+//.mbsc-datepicker-inline {
+//  height: auto;
+//}
+//.mbsc-datepicker .mbsc-calendar {
+//  padding-bottom: 0;
+//}
+//.mbsc-ios.mbsc-calendar-controls {
+//  padding: 0;
+//}
+//.mbsc-ios.mbsc-button {
+//  padding: 0;
+//}
+//.mbsc-ios.mbsc-icon-button {
+//  padding: 0;
+//}
+//.mbsc-calendar-title {
+//  font-weight: 700;
+//  font-size: 12rem;
+//  line-height: 14rem;
+//  color: #232120;
+//  padding: 0;
+//}
+//.mbsc-calendar-month, .mbsc-calendar-year {
+//  margin-right: 5rem;
+//}
+//.mbsc-datepicker .mbsc-calendar-slide {
+//  padding: 0;
+//}
+//.mbsc-calendar-day-inner {
+//  border: none;
+//}
+//.mbsc-ios.mbsc-calendar-day-text {
+//  width: 16rem;
+//  height: 16rem;
+//  margin: 1rem;
+//  font-weight: 400;
+//  font-size: 14rem;
+//  line-height: 14rem;
+//  border: none;
+//}
+//.mbsc-ios.mbsc-datepicker .mbsc-selected .mbsc-calendar-day-text {
+//  width: 16rem;
+//  height: 16rem;
+//  margin: 0;
+//  font-weight: 400;
+//  font-size: 12rem;
+//  line-height: 14rem;
+//  color: #333333;
+//}
+//.mbsc-ios.mbsc-calendar-week-day {
+//  margin-bottom: 2rem;
+//  font-weight: 700;
+//  font-size: 12rem;
+//  line-height: 12rem;
+//  height: 12rem;
+//}
+//.mbsc-ios.mbsc-calendar-cell {
+//  border-top-width: 0;
+//}
+//.mbsc-calendar-marks {
+//  right: 9rem;
+//}
 
 /////// checkbox ///////
 

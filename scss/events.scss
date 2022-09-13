@@ -163,9 +163,7 @@
   }
   &__calendar {
     margin-top: 25rem;
-    width: 224rem;
-    height: 270rem;
-    padding: 17rem 24rem;
+    padding: 7rem 24rem;
     background-color: #FFFFFF;
     border-radius: 8rem;
   }
@@ -173,12 +171,14 @@
     margin-top: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    //justify-content: space-between;
     .container-checkbox {
       padding-left: 25rem;
       font-size: 12rem;
       line-height: 18rem;
-
+      &:first-child {
+        margin-right: 25rem;
+      }
     }
   }
 }
