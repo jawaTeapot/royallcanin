@@ -2,7 +2,6 @@ $(document).ready(function(){
 
     $('.custom-select').each(function() {
         const placeholder = $(this).data().placeholder;
-        console.log(placeholder, )
         $(this).select2({
             minimumResultsForSearch: -1,
         });
