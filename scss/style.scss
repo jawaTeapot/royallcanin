@@ -167,6 +167,14 @@ body {
 
 ///////// calendar /////////
 
+.mbsc-ios.mbsc-datepicker .mbsc-hover .mbsc-calendar-day-text {
+  font-weight: 400;
+  font-size: 14rem;
+  line-height: 14rem;
+  margin: 0;
+  width: 16rem;
+  height: 16rem;
+}
 .mbsc-calendar-cell {
   div {
     display: none !important;
